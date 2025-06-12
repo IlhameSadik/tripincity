@@ -1,12 +1,37 @@
-# React + Vite
+# 🧭 TripnCity RAG Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TripnCity RAG Assistant** est un assistant conversationnel développé en React, permettant aux utilisateurs de poser des questions sur leurs destinations touristiques au Maroc. Il utilise un système RAG (*Retrieval-Augmented Generation*) pour fournir des réponses intelligentes et personnalisées, basées sur la ville sélectionnée et les catégories d'intérêt.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Fonctionnalités
 
-## Expanding the ESLint configuration
+- Sélection dynamique d’une **ville** parmi une liste de destinations marocaines.
+- Filtres par **catégories** (monuments, restaurants, activités, événements, hôtels).
+- Zone de **chat interactif** avec historique des messages utilisateur/assistant.
+- Affichage des **sources** de réponses simulées avec taux de pertinence.
+- Détection de saisie et envoi avec **bouton ou touche Entrée**.
+- Chargement simulé avec **spinner Bootstrap**.
+- Interface responsive basée sur **Bootstrap 5**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Technologies utilisées
+
+- **React** (Hooks : `useState`, `useEffect`, `useRef`)
+- **Bootstrap** & `react-bootstrap-icons`
+- **TypeScript** (ou JavaScript avec typage partiel)
+- Intégration prévue avec backend : **Spring Boot** + **Qdrant** + **LLM**
+
+---
+
+
+---
+
+## ⚙️ Installation & Lancement
+
+```bash
+npm install
+npm run dev
+
+
