@@ -2,8 +2,6 @@
 
 **TripnCity RAG Assistant** est un assistant conversationnel développé en React, permettant aux utilisateurs de poser des questions sur leurs destinations touristiques au Maroc. Il utilise un système RAG (*Retrieval-Augmented Generation*) pour fournir des réponses intelligentes et personnalisées, basées sur la ville sélectionnée et les catégories d'intérêt.
 
-
-
 ## 🚀 Fonctionnalités
 
 - Sélection dynamique d’une **ville** parmi une liste de destinations marocaines.
@@ -15,14 +13,12 @@
 - Interface responsive basée sur **Bootstrap 5**.
 
 
-
 ## 🧰 Technologies utilisées
 
 - **React** (Hooks : `useState`, `useEffect`, `useRef`)
 - **Bootstrap** & `react-bootstrap-icons`
 - **TypeScript** (ou JavaScript avec typage partiel)
 - Intégration prévue avec backend : **Spring Boot** + **Qdrant** + **LLM**
-
 
 ## ⚙️ Installation & Lancement
 
